@@ -57,7 +57,7 @@ class ProductProvider extends Component {
         }, ()=>{
             this.addTotals();
         });
-        };
+    };
 
     openModal=id=>{
         const product=this.getItem(id);
